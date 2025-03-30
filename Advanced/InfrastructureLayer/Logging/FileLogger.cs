@@ -8,10 +8,10 @@ namespace Advanced.InfrastructureLayer.Logging
 {
     public class FileLogger
     {
-        private readonly string _logFilePath = "log.txt";
-        public void Log(string message)
-        {
-            File.AppendAllText(_logFilePath, $"{message}\n");
-        }
+         private readonly string _logFilePath = "C:\\Users\\vinhl\\Desktop\\Log\\log.txt";
+         public void Log(string message)
+         {
+             File.AppendAllText(_logFilePath, $"{message}\n");
+         }
     }
 }
